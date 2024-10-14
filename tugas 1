@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Halaman Utama</title>
+        <style>
+            table {
+                width: 60%;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid black;
+                text-align: center; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Daftar Mahasiswa</h1>
+        <table border>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Nama</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Foto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Rizki Fauzan</td>
+                    <td>Laki-laki</td>
+                    <td><img src="14.png" alt="" height="120px" width="100%"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
