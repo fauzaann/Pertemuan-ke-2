@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Halaman Tambah Mahasiswa</title>
+    </head>
+    <body>
+        <h2>Tambah Mahasiswa</h2>
+        <label for="">Nama</label>
+        <input type="text" id="Nama">
+        <br>
+        <label for="">NIM</label>
+        <input type="number" id="NIM">
+        <br>
+        <label for="">Jenis Kelamin</label>
+        <select name="Select-Gender" >
+            <option value="">Select-Gender</option>
+            <option value="">Pria</option>
+            <option value="">Wanita</option>
+        </select>
+        <br>
+        <button>SUBMIT</button>
+    </body>
+</html>
